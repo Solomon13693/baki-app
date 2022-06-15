@@ -1,0 +1,48 @@
+.top_card .bg-gradient {
+    background: linear-gradient(288.08deg, #FFA781 12.59%, rgba(255, 137, 129, 0.75) 97.87%) !important;
+    border-radius: 10px;
+    border: none !important;
+    color: #FFF !important;
+    height: 150px;
+}
+
+.top_card .bg-gradient-outline {
+    background: #FFFCFA;
+    border: 2px solid #FFCEBE !important;
+    border-radius: 10px;
+    color: #FF9675 !important;
+    height: 150px;
+}
+
+.top_card .chart img {
+    position: absolute;
+    top: 20px !important;
+    right: 10px !important;
+}
+
+.top_card p {
+    margin-bottom: 0 !important;
+}
+
+.top_card h5{
+    margin-bottom: 30px !important;
+}
+
+.top_card .title {
+    font-size: 12px !important;
+}
+
+.top_card .child {
+    font-size: 14px !important;
+}
+
+.top_card .zIndex{
+    z-index: 500 !important;
+    position: relative !important;
+}
+
+.border_bottom {
+    border-bottom: 4px solid #000000 !important;
+    padding-bottom: 10px !important;
+    width: 20px !important;
+}

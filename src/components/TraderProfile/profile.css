@@ -1,0 +1,51 @@
+.trader {
+    position: absolute;
+    top: 0 !important;
+    right: 0 !important;
+    background: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .trader {
+        display: none !important;
+    }
+}
+
+.trader .card {
+    border: none;
+    width: 300px !important;
+    overflow-x: auto !important;
+    border: 1px solid rgba(193, 189, 213, 0.12);
+}
+
+.trader .card .image img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.trader .card .edit_profile {
+    text-decoration: none !important;
+    color: #FF9675 !important;
+}
+
+.trader .card .details h6,
+.trader .card .details p {
+    margin-bottom: 0 !important;
+}
+
+.trader .card .details p {
+    font-size: 0.875rem !important;
+}
+
+.trader .card .btn {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.trader .card .btn-primary {
+    background: linear-gradient(278.99deg, #FF9675 4.15%, #AEA0FF 269.48%) !important;
+    border-radius: 8px !important;
+}
